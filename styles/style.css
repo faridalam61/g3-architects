@@ -7,3 +7,173 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn-primary{
+    background-color:#FF900E;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    padding: 14px 25px;
+    border-radius: 5px;
+
+}
+
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header styles  */
+header{
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: 700;
+    color:#131313;
+}
+.menu{
+    display: flex;
+}
+
+.menu-item{
+    list-style: none;
+}
+.menu-item a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+    margin-left: 45px;
+}
+
+
+/* Hero section  */
+.hero{
+    text-align: center;
+    margin: 50px 200px;
+}
+
+.hero-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.hero-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin: 30px 0;
+}
+
+.banner-image{
+    width: 100%;
+}
+
+/* Our Features  */
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.team{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+
+.team img{
+    width: 300px;
+}
+
+.feature-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.light{
+    color: #727272;
+    font-weight: 400;
+}
+
+.primary{
+    color: #FF900E;
+}
+
+.feature-text{
+    color:#727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 15px 0 30px;
+}
+
+
+/* Responsive design  */
+@media only screen and (max-width:576px){
+    main, .container{width: 100%;}
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .hero{
+        margin: 50px 20px;
+    }
+    .menu-item a{
+        margin-left: 0;
+        padding: 0 10px;
+    }
+    .menu{
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+    .hero-title{
+        font-size: 50px;
+    }
+
+    .banner-image{
+        margin: 0 20px;
+        width: 90%;
+    }
+
+    .features{
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .team{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+
+    .team img{
+        width: 100%;
+    }
+
+    .content{
+        padding: 20px;
+        text-align: center;
+    }
+}
