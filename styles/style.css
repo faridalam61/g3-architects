@@ -258,5 +258,31 @@ nav{
         padding: 20px;
         text-align: center;
     }
+
+    .fact{
+        padding: 0 20px;
+    }
+
+    .fact-cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .fact-text{margin: 20px 20px 60px 0;}
+    .card{
+        padding:15px
+    }
+    .sponsor{
+        padding: 0 20px;
+    }
+    .sponsor-list{
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .footer{
+        margin:0 0 20px ;
+    }
+    .footer-container{
+        margin: 0 20px; 
+    }
 }
 
