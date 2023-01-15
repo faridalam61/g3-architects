@@ -66,7 +66,7 @@ nav{
 /* Hero section  */
 .hero{
     text-align: center;
-    margin: 50px 200px;
+    margin: 50px 180px;
 }
 
 .hero-title{
@@ -80,6 +80,7 @@ nav{
     font-weight: 400;
     color: #727272;
     margin: 30px 0;
+    line-height: 26px;
 }
 
 .banner-image{
@@ -122,8 +123,9 @@ nav{
 .feature-text{
     color:#727272;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     margin: 15px 0 30px;
+    line-height: 25px;
 }
 
 
@@ -140,6 +142,7 @@ nav{
     font-weight: 400;
     font-size: 16px;
     margin: 20px 50% 60px 0;
+    line-height: 25px;
 }
 .fact-cards{
     display: flex;
@@ -151,8 +154,15 @@ nav{
     border-radius: 8px;
     text-align: center;
     padding: 25px;
+    transition: 0.4s;
 }
 
+.card:hover{
+    background:#FFF4E7;
+    transform: scale(1.1);
+    color:#fff;
+    cursor: pointer;
+}
 .card-title{
     font-size: 45px;
     font-weight: 600;
@@ -195,6 +205,7 @@ nav{
     font-weight: 400;
     color: #727272;
     margin: 28px 0 40px;
+    line-height: 25px;
 }
 
 
@@ -281,12 +292,22 @@ nav{
     font-weight: 600;
 }
 
-.secondary-text{
+.secondary-text, .eliips{
     font-size: 16px;
     font-weight: 400;
     color: #727272;
     line-height: 26px;
     margin-top: 10px;
+}
+.eliips{
+    margin-top:0;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.eliips:hover{
+    overflow: visible;
 }
 
 /* Responsive design  */
