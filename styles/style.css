@@ -31,7 +31,8 @@ main{
 
 /* Header styles  */
 header{
-    
+    background: #FFF4E7;
+    padding-bottom: 30px;
 }
 
 nav{
@@ -128,7 +129,7 @@ nav{
 
 /* Some facts  */
 .fact{
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .fact-title{
     font-size: 45px;
@@ -208,6 +209,86 @@ nav{
     border-radius: 10px;
     text-align: center;
 }
+/* More features  */
+.more-feature{
+    display: flex;
+    gap: 90px;
+    margin-top: 100px;
+}
+
+.feature-content{
+    width: 50%;
+}
+
+.feature-image{
+    width: 50%;
+    text-align: right;
+}
+
+.feature-image img{
+    width: 100%;
+}
+.experience{
+    width: 320px;
+    height: 170px;
+    padding:30px;
+    text-align: center;
+    background-color: #FF900E;
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    transform: translate(-60px,-105px);
+}
+.experience-title{
+    font-size:60px;
+    font-weight:700;
+    
+}
+.experience-text{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.more-feature-box{
+    padding-left: 20px;
+    border-left: 4px solid #FF900E;
+}
+.more-feature-title{
+    font-size: 45px;
+    font-weight: 700;
+    color:#131313;
+}
+.more-feature-text{
+    font-size: 16px;
+    font-weight: 400;
+    color:#727272;
+    line-height: 26px;
+    margin: 15px 0;
+}
+
+.more-feature-card{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+    padding: 15px 20px 20px;
+    border-radius: 8px;
+}
+
+.secondary-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.secondary-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
 /* Responsive design  */
 @media only screen and (max-width:576px){
     main, .container{width: 100%;}
