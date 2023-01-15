@@ -361,6 +361,7 @@ input[type='text'], input[type='email'], textarea{
     font-size: 16px;
     font-weight: 400;
     color:#727272;
+    line-height: 25px;
 }
 .right-title{
     color: #FF900E;
@@ -369,6 +370,7 @@ input[type='text'], input[type='email'], textarea{
 }
 .right-text{
     margin:10px 0 20px;
+    
 }
 
 /* Responsive design  */
@@ -423,7 +425,7 @@ input[type='text'], input[type='email'], textarea{
     }
 
     .fact{
-        margin-top: -50px;
+        margin-top: 50px;
         padding: 0 20px;
     }
 
@@ -473,11 +475,11 @@ input[type='text'], input[type='email'], textarea{
     }
     
     .experience{
-        width: 80%;
+        width: 87%;
         height: 160px;
         padding:20px;
         position: static;
-        transform: translate(0,-105px);
+        transform: translate(0,15px);
         margin: 0 auto;
     }
     .experience-title{
